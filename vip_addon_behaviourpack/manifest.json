@@ -1,0 +1,46 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "",
+    "name": "vip_addon",
+    "uuid": "051f7bb6-3d12-3187-9618-4ad75c9d76ad",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      30
+    ]
+  },
+  "modules": [
+    {
+      "description": "",
+      "type": "data",
+      "uuid": "2f78d239-aa24-318c-b71a-0ec8ba446784",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "fc7c58a6-171a-385d-9996-f789a6dcd8f1",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "toutu, MCreator"
+    ],
+    "url": "https://mcreator.net"
+  }
+}
