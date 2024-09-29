@@ -1,0 +1,36 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "",
+    "name": "vip_addon",
+    "uuid": "fc7c58a6-171a-385d-9996-f789a6dcd8f1",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      30
+    ]
+  },
+  "modules": [
+    {
+      "description": "",
+      "type": "resources",
+      "uuid": "564024eb-5653-3059-bde6-14820aeb265a",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "toutu, MCreator"
+    ],
+    "url": "https://mcreator.net"
+  }
+}

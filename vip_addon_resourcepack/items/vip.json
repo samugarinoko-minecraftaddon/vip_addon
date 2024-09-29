@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:item": {
+    "description": {
+      "identifier": "vip_addon:vip",
+      "category": "Items",
+      "register_to_creative_menu": true
+    },
+    "components": {
+      "minecraft:icon": "vip",
+      "minecraft:render_offsets": "apple",
+      "minecraft:creative_category": "Items",
+      "minecraft:use_on": {
+        "events": {
+          "minecraft:item_start_use": {
+            "run_command": {
+              "command": "tag @s add \"rank:*6*lVIP\""
+            }
+          }
+        }
+      }
+    }
+  }
+}
